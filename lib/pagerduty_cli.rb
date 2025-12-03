@@ -53,6 +53,7 @@ module PagerdutyCli
         print_to_user("  Summary - #{user.summary}", :cyan)
         print_to_user("  Self - #{user.self}", :cyan)
         print_to_user("  HTML URL - #{user.html_url}", :cyan)
+        print_to_user("  Contact Method - #{user.contact_methods}", :cyan)
       end
     end
 
