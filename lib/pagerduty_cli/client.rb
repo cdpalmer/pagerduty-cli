@@ -27,5 +27,12 @@ module PagerdutyCli
         User.new(user_data)
       end
     end
+
+    def get_user(id)
+      users = get_users
+      users.find { |user| user.id == id }
+      response = http_get("https://api.pagerduty.com/users/#{id}")
+      User.new(response["user"]) if response["user"]
+    end
   end
 end

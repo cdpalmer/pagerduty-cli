@@ -21,5 +21,10 @@ class User
     @notification_rules = data["notification_rules"] || []
     @coordinated_incidents = data["coordinated_incidents"] || []
     @locale = data["locale"] || "en-US"
+    @id = data["id"]
+    @type = data["type"]
+    @summary = data["summary"]
+    @self = data["self"]
+    @html_url = data["html_url"]
   end
 end
