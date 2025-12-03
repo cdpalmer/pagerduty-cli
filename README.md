@@ -53,3 +53,9 @@ When building CLIs I'm a big advocate for visual outputs, and thats why I chose 
 For now, as a v1, I just settled with red error text and a SystemExit when encountering an error.  However, in the future I would want a presenter for errors, and use namespaced errors to handle errors encountered with the API.
 
 For testing, I love to have as 'prod-like' data as possible.  So when it came to working with code for the users endpoint, I wanted my test code to work with the real JSON that the server returns.  That is stored in the fixtures.  To reduce brittleness in the future (api payloads changing), a proper integration test would be helpful.  This would be more of a contract test to verify that what is given out today is still what my code is expecting.
+
+# SCREENSHOTS
+
+<img width="586" height="544" alt="Screenshot 2025-12-02 at 9 53 35 PM" src="https://github.com/user-attachments/assets/9b140fd6-1d0d-48c8-ae44-01e27665c427" />
+<img width="659" height="474" alt="Screenshot 2025-12-02 at 9 54 33 PM" src="https://github.com/user-attachments/assets/29f9df7e-65ff-4e95-a28a-3fd65233d382" />
+
