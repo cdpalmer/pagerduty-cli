@@ -2,11 +2,15 @@
 
 Build an address book with the PagerDuty's user API.
 
+Hard requirements:
+```
 [x] List all the users
 [x] Get action for specific user.  Show `first_name`, `last_name`, and `contact_methods`
 [x] Testing
+```
 
 TODO and future considerations:
+```
 [ ] Pagination
 [ ] Caching
 [ ] POROs for all nested objects (contact methods, teams, etc)
@@ -14,6 +18,7 @@ TODO and future considerations:
 [ ] Namespacing based on entity (Users, Incidents, etc)
 [ ] Verbose mode. Today's version would be verbose, but a slimmed down version could be scripted better
 [ ] Handle non 200 HTTP codes from the server
+```
 
 # USAGE
 
