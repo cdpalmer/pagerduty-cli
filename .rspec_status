@@ -1,4 +1,0 @@
-example_id                          | status | run_time        |
------------------------------------ | ------ | --------------- |
-./spec/pagerduty_cli_spec.rb[1:1:1] | passed | 0.01372 seconds |
-./spec/pagerduty_cli_spec.rb[1:2:1] | passed | 0.00028 seconds |

@@ -1,5 +1,6 @@
 require "pagerduty_cli/client"
 require "pagerduty_cli/helper"
+require "pagerduty_cli/user"
 require "thor"
 
 module PagerdutyCli
@@ -8,15 +9,20 @@ module PagerdutyCli
   class CLI < Thor
     include PagerdutyCli::Helper
     default_task :help
+    attr_reader :client
 
     def self.exit_on_failure?
       true
     end
 
-    desc "hello NAME", "say hello to NAME"
-    def hello(name)
+    desc "users", "List all users"
+    def users
       initialize_client
-      print_to_user("Hello #{name}", :green)
+      users = @client.get_users
+      print_to_user("Found users:", :yellow)
+      users.each do |user|
+        print_to_user("  - #{user.name}", :cyan)
+      end
     end
 
     private
@@ -29,6 +35,7 @@ module PagerdutyCli
         print_to_user("PD_API_TOKEN environment variable not set.", :red)
         exit 1
       end
+      @client = PagerdutyCli::Client.new(ENV["PD_API_TOKEN"])
 
       print_to_user("Setup successful.", :green)
       puts

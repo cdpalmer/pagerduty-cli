@@ -3,27 +3,29 @@ require "net/http"
 
 module PagerdutyCli
   class Client
-    class << self
-      def http_get(url)
-        uri = URI(url)
+    def initialize(token)
+      @token = token
+    end
 
-        request = Net::HTTP::Get.new(uri)
-        request["User-Agent"] = "Mozilla/5.0"
+    def http_get(url)
+      uri = URI(url)
 
-        response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
-          http.request(request)
-        end
+      request = Net::HTTP::Get.new(uri)
+      request["User-Agent"] = "Mozilla/5.0"
+      request["Authorization"] = "Token token=#{@token}"
 
-        response.body
+      response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+        http.request(request)
       end
 
-      # def json_to_map(json_string)
-      #   JSON.parse(json_string)
-      # end
+      JSON.parse(response.body)
+    end
 
-      # def get_input_line
-      #   STDIN.gets.chomp
-      # end
+    def get_users
+      response = http_get("https://api.pagerduty.com/users")
+      response["users"].map do |user_data|
+        User.new(user_data)
+      end
     end
   end
 end

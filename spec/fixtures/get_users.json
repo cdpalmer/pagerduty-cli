@@ -1,0 +1,2002 @@
+{
+  "users": [
+    {
+      "name": "Account Owner",
+      "email": "bwillemsen@pagerduty.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "dark-slate-blue",
+      "avatar_url": "https://secure.gravatar.com/avatar/e48aec97f7e53557da87e53e61567f65.png?d=mm&r=PG",
+      "billed": true,
+      "role": "owner",
+      "description": "",
+      "invitation_sent": false,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PXXVCLI",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PRJ4208/contact_methods/PXXVCLI",
+          "html_url": ""
+        },
+        {
+          "id": "P53JDVW",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PRJ4208/contact_methods/P53JDVW",
+          "html_url": ""
+        },
+        {
+          "id": "P1UYCG6",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PRJ4208/contact_methods/P1UYCG6",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P3O2BYE",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PXXVCLI",
+          "self": "https://api.pagerduty.com/users/PRJ4208/notification_rules/P3O2BYE",
+          "html_url": ""
+        },
+        {
+          "id": "P6KQCO4",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PXXVCLI",
+          "self": "https://api.pagerduty.com/users/PRJ4208/notification_rules/P6KQCO4",
+          "html_url": ""
+        },
+        {
+          "id": "P9F0YW2",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P53JDVW",
+          "self": "https://api.pagerduty.com/users/PRJ4208/notification_rules/P9F0YW2",
+          "html_url": ""
+        },
+        {
+          "id": "P65CXGC",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P1UYCG6",
+          "self": "https://api.pagerduty.com/users/PRJ4208/notification_rules/P65CXGC",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PRJ4208",
+      "type": "user",
+      "summary": "Account Owner",
+      "self": "https://api.pagerduty.com/users/PRJ4208",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PRJ4208"
+    },
+    {
+      "name": "Alex Mitchell",
+      "email": "alex.mitchell@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "dark-magenta",
+      "avatar_url": "https://secure.gravatar.com/avatar/0fcaf1810e0f1b201059f6915cc02768.png?d=mm&r=PG",
+      "billed": true,
+      "role": "user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PDZ8KHQ",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/contact_methods/PDZ8KHQ",
+          "html_url": ""
+        },
+        {
+          "id": "P0PQX45",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/contact_methods/P0PQX45",
+          "html_url": ""
+        },
+        {
+          "id": "PJ8ZXRP",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/contact_methods/PJ8ZXRP",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PG23QU8",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PDZ8KHQ",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/notification_rules/PG23QU8",
+          "html_url": ""
+        },
+        {
+          "id": "PJBRR6Y",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PDZ8KHQ",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/notification_rules/PJBRR6Y",
+          "html_url": ""
+        },
+        {
+          "id": "PBBG16B",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P0PQX45",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/notification_rules/PBBG16B",
+          "html_url": ""
+        },
+        {
+          "id": "PY2V0UO",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PJ8ZXRP",
+          "self": "https://api.pagerduty.com/users/PL0TA9M/notification_rules/PY2V0UO",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PL0TA9M",
+      "type": "user",
+      "summary": "Alex Mitchell",
+      "self": "https://api.pagerduty.com/users/PL0TA9M",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PL0TA9M"
+    },
+    {
+      "name": "Alicia Sanders",
+      "email": "alicia.sanders@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "deep-pink",
+      "avatar_url": "https://secure.gravatar.com/avatar/3e858dc24724a968a7aa1850c3ab3136.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": false,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PYWFKTH",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/contact_methods/PYWFKTH",
+          "html_url": ""
+        },
+        {
+          "id": "PLDI27U",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/contact_methods/PLDI27U",
+          "html_url": ""
+        },
+        {
+          "id": "PEV90FE",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/contact_methods/PEV90FE",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PRXUWU4",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PYWFKTH",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/notification_rules/PRXUWU4",
+          "html_url": ""
+        },
+        {
+          "id": "PV6FX6U",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PYWFKTH",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/notification_rules/PV6FX6U",
+          "html_url": ""
+        },
+        {
+          "id": "PREOLPW",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PLDI27U",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/notification_rules/PREOLPW",
+          "html_url": ""
+        },
+        {
+          "id": "P7VCJKG",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PEV90FE",
+          "self": "https://api.pagerduty.com/users/PJ29Q1C/notification_rules/P7VCJKG",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PJ29Q1C",
+      "type": "user",
+      "summary": "Alicia Sanders",
+      "self": "https://api.pagerduty.com/users/PJ29Q1C",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PJ29Q1C"
+    },
+    {
+      "name": "Amanda Brown",
+      "email": "amanda.brown@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "blue-violet",
+      "avatar_url": "https://secure.gravatar.com/avatar/eb90f4b44615925c24d7fbaf7be491a0.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PQZPQGI",
+          "type": "team_reference",
+          "summary": "Customer Support Team",
+          "self": "https://api.pagerduty.com/teams/PQZPQGI",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PQZPQGI"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PSMLP14",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/contact_methods/PSMLP14",
+          "html_url": ""
+        },
+        {
+          "id": "P3W47MP",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/contact_methods/P3W47MP",
+          "html_url": ""
+        },
+        {
+          "id": "PBXT65T",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/contact_methods/PBXT65T",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PJGOM3Q",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PSMLP14",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/PJGOM3Q",
+          "html_url": ""
+        },
+        {
+          "id": "P0K2LG6",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PSMLP14",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/P0K2LG6",
+          "html_url": ""
+        },
+        {
+          "id": "PKWQ7KR",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P3W47MP",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/PKWQ7KR",
+          "html_url": ""
+        },
+        {
+          "id": "PW2553L",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PBXT65T",
+          "self": "https://api.pagerduty.com/users/PLOASXQ/notification_rules/PW2553L",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PLOASXQ",
+      "type": "user",
+      "summary": "Amanda Brown",
+      "self": "https://api.pagerduty.com/users/PLOASXQ",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PLOASXQ"
+    },
+    {
+      "name": "Andrea Nelson",
+      "email": "andrea.nelson@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "chocolate",
+      "avatar_url": "https://secure.gravatar.com/avatar/01e9b964824d8ea3fecf73e7f5738b36.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PBYXCWL",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/contact_methods/PBYXCWL",
+          "html_url": ""
+        },
+        {
+          "id": "PAIL03R",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/contact_methods/PAIL03R",
+          "html_url": ""
+        },
+        {
+          "id": "PX9ZMR1",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/contact_methods/PX9ZMR1",
+          "html_url": ""
+        },
+        {
+          "id": "PTAOLBB",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/contact_methods/PTAOLBB",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PY24XV5",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PBYXCWL",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/notification_rules/PY24XV5",
+          "html_url": ""
+        },
+        {
+          "id": "PBBSY7V",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PBYXCWL",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/notification_rules/PBBSY7V",
+          "html_url": ""
+        },
+        {
+          "id": "P3JRJ8T",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PAIL03R",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/notification_rules/P3JRJ8T",
+          "html_url": ""
+        },
+        {
+          "id": "P0N3IW3",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PX9ZMR1",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/notification_rules/P0N3IW3",
+          "html_url": ""
+        },
+        {
+          "id": "PJ6PIGN",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PTAOLBB",
+          "self": "https://api.pagerduty.com/users/PIQHXK2/notification_rules/PJ6PIGN",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PIQHXK2",
+      "type": "user",
+      "summary": "Andrea Nelson",
+      "self": "https://api.pagerduty.com/users/PIQHXK2",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PIQHXK2"
+    },
+    {
+      "name": "Bella Watson",
+      "email": "bella.watson@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "deep-pink",
+      "avatar_url": "https://secure.gravatar.com/avatar/21c69c7c647335d2f7e4d909b8232191.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PKGK7CS",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/P864ZD4/contact_methods/PKGK7CS",
+          "html_url": ""
+        },
+        {
+          "id": "PQ10KMO",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/P864ZD4/contact_methods/PQ10KMO",
+          "html_url": ""
+        },
+        {
+          "id": "P5FRJXY",
+          "type": "phone_contact_method_reference",
+          "summary": "Skype",
+          "self": "https://api.pagerduty.com/users/P864ZD4/contact_methods/P5FRJXY",
+          "html_url": ""
+        },
+        {
+          "id": "P263II8",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/P864ZD4/contact_methods/P263II8",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P4IZ4E0",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PKGK7CS",
+          "self": "https://api.pagerduty.com/users/P864ZD4/notification_rules/P4IZ4E0",
+          "html_url": ""
+        },
+        {
+          "id": "P8UK5TQ",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PKGK7CS",
+          "self": "https://api.pagerduty.com/users/P864ZD4/notification_rules/P8UK5TQ",
+          "html_url": ""
+        },
+        {
+          "id": "PFX1I3K",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PQ10KMO",
+          "self": "https://api.pagerduty.com/users/P864ZD4/notification_rules/PFX1I3K",
+          "html_url": ""
+        },
+        {
+          "id": "PYOSGC7",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P5FRJXY",
+          "self": "https://api.pagerduty.com/users/P864ZD4/notification_rules/PYOSGC7",
+          "html_url": ""
+        },
+        {
+          "id": "PR2GFNU",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P263II8",
+          "self": "https://api.pagerduty.com/users/P864ZD4/notification_rules/PR2GFNU",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "P864ZD4",
+      "type": "user",
+      "summary": "Bella Watson",
+      "self": "https://api.pagerduty.com/users/P864ZD4",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/P864ZD4"
+    },
+    {
+      "name": "Benjamin Young",
+      "email": "benjamin.young@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "medium-violet-red",
+      "avatar_url": "https://secure.gravatar.com/avatar/82098b6b8dda4aceafcfa88f0804febe.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PUKUJEU",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/contact_methods/PUKUJEU",
+          "html_url": ""
+        },
+        {
+          "id": "PPPVEK9",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/contact_methods/PPPVEK9",
+          "html_url": ""
+        },
+        {
+          "id": "P8D7E7J",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/contact_methods/P8D7E7J",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P7OIV2R",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PUKUJEU",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/notification_rules/P7OIV2R",
+          "html_url": ""
+        },
+        {
+          "id": "PNL6VEE",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PUKUJEU",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/notification_rules/PNL6VEE",
+          "html_url": ""
+        },
+        {
+          "id": "PU0ZZKF",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPPVEK9",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/notification_rules/PU0ZZKF",
+          "html_url": ""
+        },
+        {
+          "id": "PQROZ8S",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P8D7E7J",
+          "self": "https://api.pagerduty.com/users/PFSLPPP/notification_rules/PQROZ8S",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PFSLPPP",
+      "type": "user",
+      "summary": "Benjamin Young",
+      "self": "https://api.pagerduty.com/users/PFSLPPP",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PFSLPPP"
+    },
+    {
+      "name": "Blue Media Group",
+      "email": "blue.media.group@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "red",
+      "avatar_url": "https://secure.gravatar.com/avatar/47a7b5a284d4ecf86e512bbbbe12a098.png?d=mm&r=PG",
+      "billed": true,
+      "role": "restricted_access",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PWK9XA1",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PCA13N7/contact_methods/PWK9XA1",
+          "html_url": ""
+        },
+        {
+          "id": "PKQHD3Q",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PCA13N7/contact_methods/PKQHD3Q",
+          "html_url": ""
+        },
+        {
+          "id": "PGEWCR0",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PCA13N7/contact_methods/PGEWCR0",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PJVP64G",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PWK9XA1",
+          "self": "https://api.pagerduty.com/users/PCA13N7/notification_rules/PJVP64G",
+          "html_url": ""
+        },
+        {
+          "id": "P0Z35HZ",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PWK9XA1",
+          "self": "https://api.pagerduty.com/users/PCA13N7/notification_rules/P0Z35HZ",
+          "html_url": ""
+        },
+        {
+          "id": "P2WRX4P",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PKQHD3Q",
+          "self": "https://api.pagerduty.com/users/PCA13N7/notification_rules/P2WRX4P",
+          "html_url": ""
+        },
+        {
+          "id": "PLSAXRW",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PGEWCR0",
+          "self": "https://api.pagerduty.com/users/PCA13N7/notification_rules/PLSAXRW",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PCA13N7",
+      "type": "user",
+      "summary": "Blue Media Group",
+      "self": "https://api.pagerduty.com/users/PCA13N7",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PCA13N7"
+    },
+    {
+      "name": "Brian Valdez",
+      "email": "brian.valdez@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "medium-violet-red",
+      "avatar_url": "https://secure.gravatar.com/avatar/340417a0d6c9821eea7c05c8061f0f9b.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PXM9BHY",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/contact_methods/PXM9BHY",
+          "html_url": ""
+        },
+        {
+          "id": "PWY4GOM",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/contact_methods/PWY4GOM",
+          "html_url": ""
+        },
+        {
+          "id": "PSLGFZZ",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/contact_methods/PSLGFZZ",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PQGVW3S",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PXM9BHY",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/notification_rules/PQGVW3S",
+          "html_url": ""
+        },
+        {
+          "id": "PUSGWFF",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PXM9BHY",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/notification_rules/PUSGWFF",
+          "html_url": ""
+        },
+        {
+          "id": "PB98BPV",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PWY4GOM",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/notification_rules/PB98BPV",
+          "html_url": ""
+        },
+        {
+          "id": "PXZKAA5",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PSLGFZZ",
+          "self": "https://api.pagerduty.com/users/PEEWX7C/notification_rules/PXZKAA5",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PEEWX7C",
+      "type": "user",
+      "summary": "Brian Valdez",
+      "self": "https://api.pagerduty.com/users/PEEWX7C",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PEEWX7C"
+    },
+    {
+      "name": "Casey Hammond",
+      "email": "casey.hammond@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "grey20",
+      "avatar_url": "https://secure.gravatar.com/avatar/6a309ebaa1098c2d5ce8a0b1a1663567.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P7EZ8IA",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/contact_methods/P7EZ8IA",
+          "html_url": ""
+        },
+        {
+          "id": "P0G3WE4",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/contact_methods/P0G3WE4",
+          "html_url": ""
+        },
+        {
+          "id": "PG31WOL",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/contact_methods/PG31WOL",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PZFB9QX",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P7EZ8IA",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/notification_rules/PZFB9QX",
+          "html_url": ""
+        },
+        {
+          "id": "PDRMN2K",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P7EZ8IA",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/notification_rules/PDRMN2K",
+          "html_url": ""
+        },
+        {
+          "id": "P1HJR2N",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P0G3WE4",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/notification_rules/P1HJR2N",
+          "html_url": ""
+        },
+        {
+          "id": "PH4HQA4",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PG31WOL",
+          "self": "https://api.pagerduty.com/users/PEU3EZ5/notification_rules/PH4HQA4",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PEU3EZ5",
+      "type": "user",
+      "summary": "Casey Hammond",
+      "self": "https://api.pagerduty.com/users/PEU3EZ5",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PEU3EZ5"
+    },
+    {
+      "name": "Cedar Valley Inc",
+      "email": "cedar.valley.inc@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "green",
+      "avatar_url": "https://secure.gravatar.com/avatar/6fadbbbaf1848dd9e71bbd9e79b76a76.png?d=mm&r=PG",
+      "billed": false,
+      "role": "read_only_limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PQZPQGI",
+          "type": "team_reference",
+          "summary": "Customer Support Team",
+          "self": "https://api.pagerduty.com/teams/PQZPQGI",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PQZPQGI"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PTNLWKB",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/contact_methods/PTNLWKB",
+          "html_url": ""
+        },
+        {
+          "id": "PZVKAMN",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/contact_methods/PZVKAMN",
+          "html_url": ""
+        },
+        {
+          "id": "PVJZA9K",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/contact_methods/PVJZA9K",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PC9D4D3",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PTNLWKB",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/notification_rules/PC9D4D3",
+          "html_url": ""
+        },
+        {
+          "id": "PFJ15ST",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PTNLWKB",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/notification_rules/PFJ15ST",
+          "html_url": ""
+        },
+        {
+          "id": "PE71VMG",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PZVKAMN",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/notification_rules/PE71VMG",
+          "html_url": ""
+        },
+        {
+          "id": "PAXDVNT",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PVJZA9K",
+          "self": "https://api.pagerduty.com/users/PZ0D2XH/notification_rules/PAXDVNT",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PZ0D2XH",
+      "type": "user",
+      "summary": "Cedar Valley Inc",
+      "self": "https://api.pagerduty.com/users/PZ0D2XH",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PZ0D2XH"
+    },
+    {
+      "name": "Coastal Broadcasting",
+      "email": "coastal.broadcasting@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "blue",
+      "avatar_url": "https://secure.gravatar.com/avatar/f1aeb7c2b1c59556fac1cc66d6ffe03c.png?d=mm&r=PG",
+      "billed": true,
+      "role": "restricted_access",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PPBAW8O",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/contact_methods/PPBAW8O",
+          "html_url": ""
+        },
+        {
+          "id": "PSNOZXX",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/contact_methods/PSNOZXX",
+          "html_url": ""
+        },
+        {
+          "id": "POB0YI7",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/contact_methods/POB0YI7",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PV143OQ",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPBAW8O",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/notification_rules/PV143OQ",
+          "html_url": ""
+        },
+        {
+          "id": "PYAS40D",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPBAW8O",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/notification_rules/PYAS40D",
+          "html_url": ""
+        },
+        {
+          "id": "PWLSUY3",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PSNOZXX",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/notification_rules/PWLSUY3",
+          "html_url": ""
+        },
+        {
+          "id": "PTP4TID",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel POB0YI7",
+          "self": "https://api.pagerduty.com/users/PVRS1IU/notification_rules/PTP4TID",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PVRS1IU",
+      "type": "user",
+      "summary": "Coastal Broadcasting",
+      "self": "https://api.pagerduty.com/users/PVRS1IU",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PVRS1IU"
+    },
+    {
+      "name": "Dana Harris",
+      "email": "dana.harris@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "teal",
+      "avatar_url": "https://secure.gravatar.com/avatar/bb23612f63fde79e3a0ca4257b9dd294.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PQZPQGI",
+          "type": "team_reference",
+          "summary": "Customer Support Team",
+          "self": "https://api.pagerduty.com/teams/PQZPQGI",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PQZPQGI"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P92PVVL",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PRF4164/contact_methods/P92PVVL",
+          "html_url": ""
+        },
+        {
+          "id": "PRYGTVV",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PRF4164/contact_methods/PRYGTVV",
+          "html_url": ""
+        },
+        {
+          "id": "PNMVSG5",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PRF4164/contact_methods/PNMVSG5",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PNFV1JA",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P92PVVL",
+          "self": "https://api.pagerduty.com/users/PRF4164/notification_rules/PNFV1JA",
+          "html_url": ""
+        },
+        {
+          "id": "PRRG2Z0",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P92PVVL",
+          "self": "https://api.pagerduty.com/users/PRF4164/notification_rules/PRRG2Z0",
+          "html_url": ""
+        },
+        {
+          "id": "P4FC8CY",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PRYGTVV",
+          "self": "https://api.pagerduty.com/users/PRF4164/notification_rules/P4FC8CY",
+          "html_url": ""
+        },
+        {
+          "id": "P16R808",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PNMVSG5",
+          "self": "https://api.pagerduty.com/users/PRF4164/notification_rules/P16R808",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PRF4164",
+      "type": "user",
+      "summary": "Dana Harris",
+      "self": "https://api.pagerduty.com/users/PRF4164",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PRF4164"
+    },
+    {
+      "name": "David Santiago",
+      "email": "david.santiago@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "royal-blue",
+      "avatar_url": "https://secure.gravatar.com/avatar/956eb1eccf63e18e3f304f19ba01d966.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PPQAOOE",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/contact_methods/PPQAOOE",
+          "html_url": ""
+        },
+        {
+          "id": "PCTDVZY",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/contact_methods/PCTDVZY",
+          "html_url": ""
+        },
+        {
+          "id": "PV84U7I",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/contact_methods/PV84U7I",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PCXCKBA",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPQAOOE",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/notification_rules/PCXCKBA",
+          "html_url": ""
+        },
+        {
+          "id": "PG70LR0",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPQAOOE",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/notification_rules/PG70LR0",
+          "html_url": ""
+        },
+        {
+          "id": "PSAZNGB",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PCTDVZY",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/notification_rules/PSAZNGB",
+          "html_url": ""
+        },
+        {
+          "id": "P8S09RL",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PV84U7I",
+          "self": "https://api.pagerduty.com/users/PHCPRI0/notification_rules/P8S09RL",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PHCPRI0",
+      "type": "user",
+      "summary": "David Santiago",
+      "self": "https://api.pagerduty.com/users/PHCPRI0",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PHCPRI0"
+    },
+    {
+      "name": "Emily Roberts",
+      "email": "emily.roberts@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "orange",
+      "avatar_url": "https://secure.gravatar.com/avatar/36a11d6ce28c6b3d6ba6ff178e72b970.png?d=mm&r=PG",
+      "billed": true,
+      "role": "observer",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P5T1UGY",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/contact_methods/P5T1UGY",
+          "html_url": ""
+        },
+        {
+          "id": "P7Q7S3F",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/contact_methods/P7Q7S3F",
+          "html_url": ""
+        },
+        {
+          "id": "P3DJRRS",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/contact_methods/P3DJRRS",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P3WJ0UK",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P5T1UGY",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/notification_rules/P3WJ0UK",
+          "html_url": ""
+        },
+        {
+          "id": "P76717N",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P5T1UGY",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/notification_rules/P76717N",
+          "html_url": ""
+        },
+        {
+          "id": "PK2A8NS",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P7Q7S3F",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/notification_rules/PK2A8NS",
+          "html_url": ""
+        },
+        {
+          "id": "PGTP7Y2",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P3DJRRS",
+          "self": "https://api.pagerduty.com/users/PO5G0TE/notification_rules/PGTP7Y2",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PO5G0TE",
+      "type": "user",
+      "summary": "Emily Roberts",
+      "self": "https://api.pagerduty.com/users/PO5G0TE",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PO5G0TE"
+    },
+    {
+      "name": "Gabriel Kaplan",
+      "email": "gabriel.kaplan@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "dark-slate-blue",
+      "avatar_url": "https://secure.gravatar.com/avatar/1e030e96b09e9ebc1d38cad577f90ac0.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PNBIIPE",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/contact_methods/PNBIIPE",
+          "html_url": ""
+        },
+        {
+          "id": "PJ0HQM9",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/contact_methods/PJ0HQM9",
+          "html_url": ""
+        },
+        {
+          "id": "PFRWQ9J",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/contact_methods/PFRWQ9J",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PIMVTKI",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PNBIIPE",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/notification_rules/PIMVTKI",
+          "html_url": ""
+        },
+        {
+          "id": "P039TAB",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PNBIIPE",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/notification_rules/P039TAB",
+          "html_url": ""
+        },
+        {
+          "id": "PZ7D66P",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PJ0HQM9",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/notification_rules/PZ7D66P",
+          "html_url": ""
+        },
+        {
+          "id": "PVYS5TM",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PFRWQ9J",
+          "self": "https://api.pagerduty.com/users/PBGAOZM/notification_rules/PVYS5TM",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PBGAOZM",
+      "type": "user",
+      "summary": "Gabriel Kaplan",
+      "self": "https://api.pagerduty.com/users/PBGAOZM",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PBGAOZM"
+    },
+    {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "crimson",
+      "avatar_url": "https://secure.gravatar.com/avatar/6bcf0f60dcf4661d6a6b2ddcba92f17b.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PC5UWWY",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/contact_methods/PC5UWWY",
+          "html_url": ""
+        },
+        {
+          "id": "PY5KOI6",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/contact_methods/PY5KOI6",
+          "html_url": ""
+        },
+        {
+          "id": "PUWZO5G",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/contact_methods/PUWZO5G",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P894JLV",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PC5UWWY",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/notification_rules/P894JLV",
+          "html_url": ""
+        },
+        {
+          "id": "POISKAI",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PC5UWWY",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/notification_rules/POISKAI",
+          "html_url": ""
+        },
+        {
+          "id": "P0UJ1L6",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PY5KOI6",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/notification_rules/P0UJ1L6",
+          "html_url": ""
+        },
+        {
+          "id": "PJR528Q",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PUWZO5G",
+          "self": "https://api.pagerduty.com/users/PJ7UO7D/notification_rules/PJR528Q",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PJ7UO7D",
+      "type": "user",
+      "summary": "Grace Thompson",
+      "self": "https://api.pagerduty.com/users/PJ7UO7D",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PJ7UO7D"
+    },
+    {
+      "name": "Gregory Nielsen",
+      "email": "gregory.nielsen@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "dark-red",
+      "avatar_url": "https://secure.gravatar.com/avatar/f5f52f201163df1b0ed67600f22c0509.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PYW6VH8",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/contact_methods/PYW6VH8",
+          "html_url": ""
+        },
+        {
+          "id": "P6BC91D",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/contact_methods/P6BC91D",
+          "html_url": ""
+        },
+        {
+          "id": "P32R8PQ",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/contact_methods/P32R8PQ",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P10VIWF",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PYW6VH8",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/notification_rules/P10VIWF",
+          "html_url": ""
+        },
+        {
+          "id": "P4ZGJ95",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PYW6VH8",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/notification_rules/P4ZGJ95",
+          "html_url": ""
+        },
+        {
+          "id": "PUJJMRK",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P6BC91D",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/notification_rules/PUJJMRK",
+          "html_url": ""
+        },
+        {
+          "id": "PRNYLCX",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P32R8PQ",
+          "self": "https://api.pagerduty.com/users/PFY6NVQ/notification_rules/PRNYLCX",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PFY6NVQ",
+      "type": "user",
+      "summary": "Gregory Nielsen",
+      "self": "https://api.pagerduty.com/users/PFY6NVQ",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PFY6NVQ"
+    },
+    {
+      "name": "Ian Ingram",
+      "email": "ian.ingram@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "firebrick",
+      "avatar_url": "https://secure.gravatar.com/avatar/1d8e24fb4e318e6e94e87e6c454fe664.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P0W07TK",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/contact_methods/P0W07TK",
+          "html_url": ""
+        },
+        {
+          "id": "PLLA8ZX",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/contact_methods/PLLA8ZX",
+          "html_url": ""
+        },
+        {
+          "id": "PIPP7K7",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/contact_methods/PIPP7K7",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "POKE79U",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P0W07TK",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/notification_rules/POKE79U",
+          "html_url": ""
+        },
+        {
+          "id": "PSX27LH",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P0W07TK",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/notification_rules/PSX27LH",
+          "html_url": ""
+        },
+        {
+          "id": "PNBNL07",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PLLA8ZX",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/notification_rules/PNBNL07",
+          "html_url": ""
+        },
+        {
+          "id": "P71MKNH",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PIPP7K7",
+          "self": "https://api.pagerduty.com/users/PAHFDJF/notification_rules/P71MKNH",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PAHFDJF",
+      "type": "user",
+      "summary": "Ian Ingram",
+      "self": "https://api.pagerduty.com/users/PAHFDJF",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PAHFDJF"
+    },
+    {
+      "name": "Jade Mountain Corp",
+      "email": "jade.mountain.corp@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "brown",
+      "avatar_url": "https://secure.gravatar.com/avatar/e5ab7e721dfd6792e541c066390ea378.png?d=mm&r=PG",
+      "billed": false,
+      "role": "read_only_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P1GDU48",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/P7WUMER/contact_methods/P1GDU48",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PIGH02E",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P1GDU48",
+          "self": "https://api.pagerduty.com/users/P7WUMER/notification_rules/PIGH02E",
+          "html_url": ""
+        },
+        {
+          "id": "PMT50F4",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P1GDU48",
+          "self": "https://api.pagerduty.com/users/P7WUMER/notification_rules/PMT50F4",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "P7WUMER",
+      "type": "user",
+      "summary": "Jade Mountain Corp",
+      "self": "https://api.pagerduty.com/users/P7WUMER",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/P7WUMER"
+    },
+    {
+      "name": "Jason Green",
+      "email": "jason.green@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "indigo",
+      "avatar_url": "https://secure.gravatar.com/avatar/d33b0250b538c8daf28067957c4f3b2b.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PQZPQGI",
+          "type": "team_reference",
+          "summary": "Customer Support Team",
+          "self": "https://api.pagerduty.com/teams/PQZPQGI",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PQZPQGI"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P8EPNZR",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PE31R5A/contact_methods/P8EPNZR",
+          "html_url": ""
+        },
+        {
+          "id": "P9ZV3C1",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PE31R5A/contact_methods/P9ZV3C1",
+          "html_url": ""
+        },
+        {
+          "id": "P6072MB",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PE31R5A/contact_methods/P6072MB",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PVP3J9K",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P8EPNZR",
+          "self": "https://api.pagerduty.com/users/PE31R5A/notification_rules/PVP3J9K",
+          "html_url": ""
+        },
+        {
+          "id": "PYLRJMN",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P8EPNZR",
+          "self": "https://api.pagerduty.com/users/PE31R5A/notification_rules/PYLRJMN",
+          "html_url": ""
+        },
+        {
+          "id": "PQZ3FAV",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P9ZV3C1",
+          "self": "https://api.pagerduty.com/users/PE31R5A/notification_rules/PQZ3FAV",
+          "html_url": ""
+        },
+        {
+          "id": "P9MFEL5",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P6072MB",
+          "self": "https://api.pagerduty.com/users/PE31R5A/notification_rules/P9MFEL5",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PE31R5A",
+      "type": "user",
+      "summary": "Jason Green",
+      "self": "https://api.pagerduty.com/users/PE31R5A",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PE31R5A"
+    },
+    {
+      "name": "Justin Shaw",
+      "email": "justin.shaw@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "purple",
+      "avatar_url": "https://secure.gravatar.com/avatar/bf4dfe8a145fb96442de8174885d28fa.png?d=mm&r=PG",
+      "billed": true,
+      "role": "admin",
+      "description": "Managed by Terraform",
+      "invitation_sent": false,
+      "job_title": "",
+      "teams": [],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P1NJL34",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/contact_methods/P1NJL34",
+          "html_url": ""
+        },
+        {
+          "id": "PTI453E",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/contact_methods/PTI453E",
+          "html_url": ""
+        },
+        {
+          "id": "PQ8G4RR",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/contact_methods/PQ8G4RR",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "P29AUSK",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P1NJL34",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/notification_rules/P29AUSK",
+          "html_url": ""
+        },
+        {
+          "id": "PQ4XWX0",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P1NJL34",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/notification_rules/PQ4XWX0",
+          "html_url": ""
+        },
+        {
+          "id": "PBU0HEY",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PTI453E",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/notification_rules/PBU0HEY",
+          "html_url": ""
+        },
+        {
+          "id": "PU8RGPI",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PQ8G4RR",
+          "self": "https://api.pagerduty.com/users/PPC00ZX/notification_rules/PU8RGPI",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PPC00ZX",
+      "type": "user",
+      "summary": "Justin Shaw",
+      "self": "https://api.pagerduty.com/users/PPC00ZX",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PPC00ZX"
+    },
+    {
+      "name": "Karen Lopez",
+      "email": "karen.lopez@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "orange-red",
+      "avatar_url": "https://secure.gravatar.com/avatar/d43ad6abbede503d96460d195863ec80.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PQZPQGI",
+          "type": "team_reference",
+          "summary": "Customer Support Team",
+          "self": "https://api.pagerduty.com/teams/PQZPQGI",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PQZPQGI"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "PQZADP9",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/contact_methods/PQZADP9",
+          "html_url": ""
+        },
+        {
+          "id": "P2QJ2NO",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/contact_methods/P2QJ2NO",
+          "html_url": ""
+        },
+        {
+          "id": "PHAH1I5",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/contact_methods/PHAH1I5",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PKRQT80",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PQZADP9",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/notification_rules/PKRQT80",
+          "html_url": ""
+        },
+        {
+          "id": "P1V4SKG",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PQZADP9",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/notification_rules/P1V4SKG",
+          "html_url": ""
+        },
+        {
+          "id": "PI14D49",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P2QJ2NO",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/notification_rules/PI14D49",
+          "html_url": ""
+        },
+        {
+          "id": "PX67B06",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PHAH1I5",
+          "self": "https://api.pagerduty.com/users/PRH0AAE/notification_rules/PX67B06",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PRH0AAE",
+      "type": "user",
+      "summary": "Karen Lopez",
+      "self": "https://api.pagerduty.com/users/PRH0AAE",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PRH0AAE"
+    },
+    {
+      "name": "Katie Foster",
+      "email": "katie.foster@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "red",
+      "avatar_url": "https://secure.gravatar.com/avatar/9154888e1b7c75890c119fc56bdf5ee8.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P72XHAR",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/contact_methods/P72XHAR",
+          "html_url": ""
+        },
+        {
+          "id": "P8KMKZM",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/contact_methods/P8KMKZM",
+          "html_url": ""
+        },
+        {
+          "id": "P5OBJKZ",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/contact_methods/P5OBJKZ",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PBDJSW5",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P72XHAR",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/notification_rules/PBDJSW5",
+          "html_url": ""
+        },
+        {
+          "id": "PFQ7T8V",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P72XHAR",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/notification_rules/PFQ7T8V",
+          "html_url": ""
+        },
+        {
+          "id": "PA40VAU",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P8KMKZM",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/notification_rules/PA40VAU",
+          "html_url": ""
+        },
+        {
+          "id": "PWUCUL4",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P5OBJKZ",
+          "self": "https://api.pagerduty.com/users/PY7PNKZ/notification_rules/PWUCUL4",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "PY7PNKZ",
+      "type": "user",
+      "summary": "Katie Foster",
+      "self": "https://api.pagerduty.com/users/PY7PNKZ",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/PY7PNKZ"
+    },
+    {
+      "name": "Kyle Martinez",
+      "email": "kyle.martinez@example.com",
+      "time_zone": "America/Los_Angeles",
+      "color": "darkolive-green",
+      "avatar_url": "https://secure.gravatar.com/avatar/206479b30e7c03f766dc1033e45df04f.png?d=mm&r=PG",
+      "billed": true,
+      "role": "limited_user",
+      "description": "Managed by Terraform",
+      "invitation_sent": true,
+      "job_title": "",
+      "teams": [
+        {
+          "id": "PGVXG6U",
+          "type": "team_reference",
+          "summary": "Product Development Team",
+          "self": "https://api.pagerduty.com/teams/PGVXG6U",
+          "html_url": "https://pdt-apidocs.pagerduty.com/teams/PGVXG6U"
+        }
+      ],
+      "created_via_sso": false,
+      "contact_methods": [
+        {
+          "id": "P8MPT14",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/contact_methods/P8MPT14",
+          "html_url": ""
+        },
+        {
+          "id": "PE1W15F",
+          "type": "phone_contact_method_reference",
+          "summary": "Work",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/contact_methods/PE1W15F",
+          "html_url": ""
+        },
+        {
+          "id": "PAS80TS",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/contact_methods/PAS80TS",
+          "html_url": ""
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PCF0NWP",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P8MPT14",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/notification_rules/PCF0NWP",
+          "html_url": ""
+        },
+        {
+          "id": "PGROO8C",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel P8MPT14",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/notification_rules/PGROO8C",
+          "html_url": ""
+        },
+        {
+          "id": "PPKYZYT",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PE1W15F",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/notification_rules/PPKYZYT",
+          "html_url": ""
+        },
+        {
+          "id": "P5BMY6D",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PAS80TS",
+          "self": "https://api.pagerduty.com/users/P8FOW6X/notification_rules/P5BMY6D",
+          "html_url": ""
+        }
+      ],
+      "coordinated_incidents": [],
+      "locale": "en-US",
+      "id": "P8FOW6X",
+      "type": "user",
+      "summary": "Kyle Martinez",
+      "self": "https://api.pagerduty.com/users/P8FOW6X",
+      "html_url": "https://pdt-apidocs.pagerduty.com/users/P8FOW6X"
+    }
+  ],
+  "limit": 25,
+  "offset": 0,
+  "total": "",
+  "more": true
+}
